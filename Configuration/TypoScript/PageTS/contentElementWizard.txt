@@ -1,0 +1,12 @@
+mod.wizards.newContentElement.wizardItems.plugins {
+	elements {
+		clickskeks {
+			iconIdentifier = tx-clickskeks-icon
+			title = LLL:EXT:clickskeks/Resources/Private/Language/locallang_be.xlf:extensionName
+			description = LLL:EXT:clickskeks/Resources/Private/Language/locallang_be.xlf:extensionDescription
+			tt_content_defValues {
+				CType = clickskeks_clickskeks
+			}
+		}
+	}
+}

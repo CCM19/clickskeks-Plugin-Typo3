@@ -1,0 +1,14 @@
+
+plugin.tx_clickskeks_clickskeks {
+    view {
+        templateRootPaths.0 = EXT:clickskeks/Resources/Private/Templates/
+        templateRootPaths.1 = {$plugin.tx_clickskeks_clickskeks.view.templateRootPath}
+        partialRootPaths.0 = EXT:clickskeks/Resources/Private/Partials/
+        partialRootPaths.1 = {$plugin.tx_clickskeks_clickskeks.view.partialRootPath}
+        layoutRootPaths.0 = EXT:clickskeks/Resources/Private/Layouts/
+        layoutRootPaths.1 = {$plugin.tx_clickskeks_clickskeks.view.layoutRootPath}
+    }
+}
+
+page.headTag.postCObject = TEXT
+page.headTag.postCObject.value = <script src="https://static.clickskeks.at/{$clickskeks-key}/bundle.js" type="application/javascript" ></script>

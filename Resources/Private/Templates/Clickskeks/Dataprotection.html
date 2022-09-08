@@ -1,0 +1,12 @@
+<html xmlns:f="http://xsd.helhum.io/ns/typo3/cms-fluid/master/ViewHelpers" data-namespace-typo3-fluid="true">
+<div id="c{data.uid}" class="clickskeks-consent frame frame-layout-{data.layout}{f:if(condition: data.space_before_class, then: ' frame-space-before-{data.space_before_class}')}{f:if(condition: data.space_after_class, then: ' frame-space-after-{data.space_after_class}')}">
+	<f:if condition="{clickskeks-key}">
+		<f:then>
+			<script id="clickskeks-disclaimer-script" src="https://static.clickskeks.at/{clickskeks-key}/disclaimer.js" type="application/javascript"></script>
+		</f:then>
+		<f:else>
+			<f:translate id="LLL:EXT:clickskeks/Resources/Private/Language/locallang.xlf:dataprotection-not-loaded" />
+		</f:else>
+	</f:if>
+</div>
+</html>
