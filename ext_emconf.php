@@ -6,6 +6,7 @@ $EM_CONF['clickskeks'] = [
     'category' => 'plugin',
     'author' => 'Thomas Schmidt',
     'author_email' => 't.schmidt@clicksgefuehle.at',
+    'company' => 'Papoo/&Media GmbH',
     'state' => 'stable',
     'uploadfolder' => 0,
     'createDirs' => '',
@@ -13,7 +14,8 @@ $EM_CONF['clickskeks'] = [
     'version' => '2.0.0',
     'constraints' => [
         'depends' => [
-            'typo3' => '11.5-0-11.9.99',
+            'typo3' => '12.0-0-12.4.99',
+            'php' => '7.4.0-8.1.99'
         ],
         'conflicts' => [],
         'suggests' => [],

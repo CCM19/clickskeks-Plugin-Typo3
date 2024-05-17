@@ -9,24 +9,33 @@
 			"name": "Thomas Schmidt",
 			"email": "t.schmidt@clicksgefuehle.at",
 			"homepage": "https://www.clicksgefuehle.at"
+		},
+		{
+			"name": "Jona Stephan",
+			"email": "js@papoo.de",
+			"homepage": "https://www.ccm19.de"
+
 		}
 	],
 	"require": {
-		"typo3/cms-core": "^11.5"
+		"typo3/cms-core": "^12.4 || ^13.0",
+		"typo3/cms-backend": "^12.4 || ^13.0",
+		"php": "^8.1"
 	},
 	"autoload": {
 		"psr-4": {
 			"Contemas\\Clickskeks\\": "Classes"
 		}
 	},
-	"replace": {
-		"clickskeks": "self.version",
-		"typo3-ter/clickskeks": "self.version",
-		"contemas/clickskeks": "self.version"
-	},
 	"extra": {
 		"typo3/cms": {
 			"extension-key": "clickskeks"
+		}
+	},
+	"config": {
+		"allow-plugins": {
+			"typo3/class-alias-loader": true,
+			"typo3/cms-composer-installers": true
 		}
 	}
 }
