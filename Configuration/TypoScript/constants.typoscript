@@ -1,8 +1,6 @@
-
-plugin.tx_clickskeks_clickskeks {
-    view {
-        templateRootPath = EXT:clickskeks/Resources/Private/Templates/
-        partialRootPath = EXT:clickskeks/Resources/Private/Partials/
-        layoutRootPath = EXT:clickskeks/Resources/Private/Layouts/
-    }
+plugin.tx_clickskeks_clickskeks.view {
+    templateRootPath = EXT:clickskeks/Resources/Private/Templates/
+    partialRootPath = EXT:clickskeks/Resources/Private/Partials/
+    layoutRootPath = EXT:clickskeks/Resources/Private/Layouts/
 }
+clickskeks-key =

@@ -6,7 +6,7 @@ use TYPO3\CMS\Core\Configuration\ExtensionConfiguration;
 
 class ClickskeksController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
 {
-    public function dataprotectionAction()
+    public function dataprotectionAction(): void
     {
 		$extensionConfiguration = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(ExtensionConfiguration::class)
 			->get('clickskeks');

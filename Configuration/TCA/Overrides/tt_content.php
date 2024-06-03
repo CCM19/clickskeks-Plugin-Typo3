@@ -9,7 +9,7 @@ defined('TYPO3') or die();
     'tx-clickskeks-icon'
 );
 
-$GLOBALS['TCA']['tt_content']['ctrl']['typeicon_classes']['clickskeks_clickskeks'] = 'tx-clickskeks-icon';
+$GLOBALS['TCA']['tt_content']['ctrl']['type-icon_classes']['clickskeks_clickskeks'] = 'tx-clickskeks-icon';
 $GLOBALS['TCA']['tt_content']['types']['clickskeks_clickskeks'] = [
     'showitem' => '--div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:general,
                 --palette--;;general,

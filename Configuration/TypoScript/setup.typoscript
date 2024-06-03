@@ -11,4 +11,4 @@ plugin.tx_clickskeks_clickskeks {
 }
 
 page.headTag.postCObject = TEXT
-page.headTag.postCObject.value = <script src="https://static.clickskeks.at/{$clickskeks-key}/bundle.js" type="application/javascript" ></script>
+page.headTag.postCObject.value ={$clickskeks-key}
