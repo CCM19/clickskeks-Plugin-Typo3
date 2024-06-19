@@ -1,10 +1,10 @@
 {
-	"name": "contemas/clickskeks",
+	"name": "clickskeks/typo3-plugin",
 	"description": "Clickskeks (https://www.clickskeks.at/) Cookie-Banner with Data-Protection Plugin",
 	"type": "typo3-cms-extension",
 	"minimum-stability": "stable",
 	"license": "GPL-2.0+",
-	"version": "2.0.3",
+	"version": "2.1.0",
 	"authors": [
 		{
 			"name": "Thomas Schmidt",
@@ -25,7 +25,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Contemas\\Clickskeks\\": "Classes"
+			"clickskeks\\typo3Plugin\\": "Classes"
 		}
 	},
 	"extra": {

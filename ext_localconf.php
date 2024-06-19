@@ -2,10 +2,10 @@
 defined('TYPO3') or die();
 
 \TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(
-'Contemas.clickskeks',
-'Clickskeks',
+'clickskeks.typo3-plugin',
+'clickskeks',
 [
-Contemas\Clickskeks\Controller\ClickskeksController::class => 'dataprotection'
+clickskeks\pluginTypo3\Controller\ClickskeksController::class => 'dataprotection'
 ],
 [],
 \TYPO3\CMS\Extbase\Utility\ExtensionUtility::PLUGIN_TYPE_CONTENT_ELEMENT

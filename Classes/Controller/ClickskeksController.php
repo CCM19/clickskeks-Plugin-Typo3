@@ -1,6 +1,6 @@
 <?php
 
-namespace Contemas\Clickskeks\Controller;
+namespace clickskeks\typo3Plugin\Controller;
 
 use TYPO3\CMS\Core\Configuration\ExtensionConfiguration;
 
